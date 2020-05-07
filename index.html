@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand font-weight-bold" href="#">Code<span class="text-dark">Right</span> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-4">
+            <li class="nav-item text-uppercase font-weight-bold active mr-2 ">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item text-uppercase font-weight-bold mr-2 ">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item text-uppercase font-weight-bold  mr-2 ">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item text-uppercase font-weight-bold  mr-2">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn-sm btn-dark  my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <header class="masthead">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+              <h1 class="font-weight-light text-light">Vertically Centered Masthead Content</h1>
+              <p class="lead text-light mb-3">A great starter layout for a landing page</p>
+              <button type="button" class="btn btn-success font-weight-bold" data-toggle="modal" data-target="#logoutModal">Our Services</button>
+              <button type="button" class="btn btn-light font-weight-bold ml-2">About Us</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Please Order Here</h5>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <label for="food">Item</label>
+              <input type="text" class="form-control">
+              <label for="food">Item</label>
+              <input type="text" class="form-control">
+              <label for="food">Item</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+              <a class="btn btn-primary" href="/logout">Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Page Content -->
+      <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 ">
+                    <h2 class="font-weight-light text-uppercase text-success">Page Content</h2><hr width="20%" class="ml-0 line">
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda 
+                        aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+                        
+                </div>
+                <div class="col-md-5 offset-md-2 ">
+                    <h2 class="font-weight-light text-uppercase text-success ">Page Content</h2> <hr width="20%" class="ml-0 line">
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda 
+                        aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-5 ">
+                    <h2 class="font-weight-light text-uppercase text-success">Page Content</h2> <hr width="20%" class="ml-0 line">
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda 
+                        aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+                </div>
+                <div class="col-md-5 offset-md-2"> 
+                    <h2 class="font-weight-light text-uppercase text-success">Page Content</h2><hr width="20%" class="ml-0 line">
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda 
+                        aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <section class="about py-5 mt-4 text-light">
+            <div class="container">
+                <h2 class="text-center text-uppercase text-success">About Us</h2>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <img src="ceo.jpg" alt="" height="300px">
+                </div>
+                <div class="col-md-6">
+                    <p class="text-justify ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, nisi! Dignissimos sed 
+                        consequuntur optio nam atque inventore veniam earum accusantium 
+                        saepe. Esse minima ullam vel, 
+                        recusandae temporibus expedita labore voluptas? Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Commodi a laboriosam, suscipit ad quos velit voluptas rem. 
+                        Consectetur, officiis ad. Aperiam aspernatur molestiae ex dolorum id tempore ea incidunt a?</p>
+                        <p class="text-justify"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, nisi! Dignissimos sed 
+                            consequuntur optio nam atque inventore veniam earum accusantium 
+                            saepe. Esse minima ullam vel, 
+                            recusandae temporibus expedita labore voluptas? Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Commodi a laboriosam, suscipit ad quos velit voluptas rem. 
+                            Consectetur,  id tempore ea incidunt</p>
+                </div>
+            </div>
+        </div>
+        </section>
+  
+      </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

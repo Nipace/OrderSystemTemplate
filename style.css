@@ -1,0 +1,117 @@
+body{
+
+  
+  background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}.text-danger{
+    color:red;
+}
+.text-sucess{
+    color:green;
+}
+.banner{
+    background-image: url(ceo.jpg);
+    background-color: #cccccc; 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.blur{
+    height: 100vh; 
+    background-color: rgba(0,0,0,0.5); 
+}
+.banner-heading{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: x-large;
+    padding-top:120px;
+}
+.heading2{
+    color:red;
+}
+.button{
+    height: 50px;
+    background-color: green;
+    border: none;
+    color:white;
+    font-weight:bold;
+    font-size: large;
+    border-radius: 20px;
+}
+/* ul{
+    float: right;
+}
+li{
+    display: inline;
+    float: left;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: larger;
+    padding-right:25px;
+}
+.nav-link,a{
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration:none;
+}
+.nav-link,a:hover{
+    color:red;
+}
+.active{
+    color:green;
+    background-color: white;
+    
+} */
+
+.button1{
+    height: 50px;
+    background-color: white;
+    border: none;
+    color:green;
+    font-weight:bold;
+    font-size: large;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: red;
+    color:white;
+}
+.button1:hover{
+    background-color: red;
+    color:white;
+}
+.ban{
+    height: 100vh;
+}
+.back{
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .btn{
+      width:140px;
+  }
+  .btn:hover {
+     box-shadow: 5px 2px 
+  }
+  .about{
+      background-color: rgba(3, 3, 3, 0.822);
+  }
+  .line{
+      height: 1px;
+      background-color: black;
+  }
