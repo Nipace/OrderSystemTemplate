@@ -46,32 +46,7 @@ body{
     font-size: large;
     border-radius: 20px;
 }
-/* ul{
-    float: right;
-}
-li{
-    display: inline;
-    float: left;
-    color: white;
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-size: larger;
-    padding-right:25px;
-}
-.nav-link,a{
-    display: block;
-    color:white;
-    text-align: center;
-    text-decoration:none;
-}
-.nav-link,a:hover{
-    color:red;
-}
-.active{
-    color:green;
-    background-color: white;
-    
-} */
+
 
 .button1{
     height: 50px;
@@ -160,3 +135,24 @@ li{
 #social-em:hover {
     color: #f39c12;
 }
+#statusbar{
+    min-height:35px;
+    background: #1E1E1E;
+}
+
+.login-btn{
+    text-decoration: none!important;
+}
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .menucard{
+    margin-top: -100px;
+}
+

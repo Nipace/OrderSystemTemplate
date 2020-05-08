@@ -1,0 +1,6 @@
+.mega-menu{width: 550px; overflow: hidden; padding: 10px;}
+.mega-menu a{text-decoration: none; color: cadetblue;}
+.mega-menu .sub-menu-heading{ color: darkcyan;}
+@media(max-width:500px){
+	.mega-menu{width: 300px;}
+}
