@@ -258,7 +258,7 @@
                                 <!-- Subtitle -->
                                 <h6 class="blue-text pb-2"><strong>Price: $2 </strong></h6>
                                 <!-- Text -->
-                                <button class="btn-sm btn-success mb-2">Add to Cart</button>
+                                <button class="btn-sm btn-success mb-2" data-toggle="modal" data-target="#cartModal">Add to Cart</button>
                             
                                
                               </div>
@@ -344,6 +344,34 @@
         </div>
     </div>
   </section>
+  <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="card-img-top" src="https://media.istockphoto.com/photos/homemade-asian-vegeterian-potstickers-picture-id454269923" alt="Card image cap">
+          <button class="close br-danger" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+                <h5 class="font-weight-bold">Fried Momo</h5>
+            </div>
+            <div class="col-md-6">
+              <h5 class="font-weight-bold text-right">$2</h5>
+            </div>
+          </div>
+          <div class="row">
+            <p class="pl-3 mt-2">Tomato Sauce Base, Herbs, Cheese, Ham, Pepperoni, Jalapeños, Drizzle of Chilli Sauce</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-success" href="/logout">Add</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <section id="footer" class= "bg-success">
     <div class="container">
     <div class="row">
